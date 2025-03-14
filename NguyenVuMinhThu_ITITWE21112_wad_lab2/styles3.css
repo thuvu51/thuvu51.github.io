@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #001F3F; 
+    color: #90c7ff; 
+}
+
+.container {
+    background-color: #003366; 
+    width: 50%;
+    margin: 50px auto; 
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+header {
+    background-color: #003366;
+    padding: 20px;
+    border-radius: 10px;
+    color: #00ffb3b2;
+    text-align: center;
+}
+
+h1 {
+    color: #00ffb3b2; 
+    margin-bottom: 15px;
+}
+
+h2 {
+    color: #2c72b8;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: square;
+    text-align: left;
+    display: inline-block;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.experience, .projects {
+    background-color: #002147;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.back-button {
+    display: inline-block;
+    background-color: #00509E;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: 1s;
+    margin-top: 15px;
+}
+
+.back-button:hover {
+    background-color: #001F3F; 
+    transform: scale(1.22); 
+}
